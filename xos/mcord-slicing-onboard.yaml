@@ -10,7 +10,7 @@ topology_template:
     servicecontroller#mcord_slicing_ui:
       type: tosca.nodes.ServiceController
       properties:
-          base_url: file:///opt/xos_services/mcord-ui-slicing/xos/
+          # base_url: file:///opt/xos_services/mcord_slicing_ui/xos/
           # The following will concatenate with base_url automatically, if
           # base_url is non-null.
 #          models: models.py
